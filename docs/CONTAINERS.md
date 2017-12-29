@@ -4,4 +4,4 @@ The container components provide a convenient way of interfacing with common API
 
 Below is a list of the bundled container components linking to their respective documentation.
 
-1. [XmlHttpRequestContainer](containers/XMLHTTPREQUEST.md)
+1. [XmlHttpRequestContainer](https://github.com/lewnelson/react-finite-loader/blob/master/docs/containers/XMLHTTPREQUEST.md)

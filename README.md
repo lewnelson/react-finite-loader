@@ -121,5 +121,5 @@ See the [API documentation](#api-documentation) for further detail on the bundle
 
 ## API Documentation
 ----
-1. [Container Components](docs/CONTAINERS.md)
-1. [UI Loader Components](docs/LOADERS.md)
+1. [Container Components](https://github.com/lewnelson/react-finite-loader/blob/master/docs/CONTAINERS.md)
+1. [UI Loader Components](https://github.com/lewnelson/react-finite-loader/blob/master/docs/LOADERS.md)

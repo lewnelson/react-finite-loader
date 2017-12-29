@@ -4,4 +4,4 @@ The bundled loader components all have the capability of being styled via props,
 
 Below is a list of the bundled loader components linking to their respective documentation.
 
-1. [Bar](loaders/BAR.md)
+1. [Bar](https://github.com/lewnelson/react-finite-loader/blob/master/docs/loaders/BAR.md)

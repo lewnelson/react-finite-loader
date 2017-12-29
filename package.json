@@ -2,6 +2,7 @@
   "name": "react-finite-loader",
   "version": "0.0.1",
   "description": "React progress loaders for loading a finite resource",
+  "keywords": [ "react", "loaders", "finite" ],
   "main": "build/index.js",
   "scripts": {
     "build": "babel --watch --source-maps inline -d build/ src/",
@@ -11,6 +12,10 @@
     "lint": "eslint src/**/* test/**/*",
     "prepublish": "npm run build:prod",
     "test": "mocha --require babel-core/register test/bootstrap.js 'test/**/*.spec.js*'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lewnelson/react-finite-loader"
   },
   "author": "Lewis Nelson <lewis@lewnelson.com> (https://lewnelson.com/)",
   "license": "MIT",
