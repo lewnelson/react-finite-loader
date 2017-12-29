@@ -1,0 +1,45 @@
+{
+  "name": "react-finite-loader",
+  "version": "0.0.1",
+  "description": "React progress loaders for loading a finite resource",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "babel --watch --source-maps inline -d build/ src/",
+    "build:prod": "babel -d build/ src/",
+    "coverage": "babel-node ./node_modules/.bin/babel-istanbul cover ./node_modules/.bin/_mocha -- --require test/bootstrap.js 'test/**/*.spec.js*'",
+    "coverage:serve": "static-server coverage/lcov-report/",
+    "lint": "eslint src/**/* test/**/*",
+    "prepublish": "npm run build:prod",
+    "test": "mocha --require babel-core/register test/bootstrap.js 'test/**/*.spec.js*'"
+  },
+  "author": "Lewis Nelson <lewis@lewnelson.com> (https://lewnelson.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-istanbul": "^0.12.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "chai": "^4.1.2",
+    "dirty-chai": "^2.0.1",
+    "enzyme": "^3.2.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "eslint": "^4.14.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-config-standard-jsx": "^4.0.2",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-react": "^7.5.1",
+    "eslint-plugin-standard": "^3.0.1",
+    "jsdom": "^11.5.1",
+    "mocha": "^4.0.1",
+    "sinon": "^4.1.3",
+    "sinon-chai": "^2.14.0",
+    "static-server": "^3.0.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
