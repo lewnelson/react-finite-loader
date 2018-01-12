@@ -13,5 +13,8 @@ export {
 
 // Loader types
 export {
-  Bar
+  Bar,
+  Blocks,
+  Donut,
+  Grid
 } from './loaderTypes'

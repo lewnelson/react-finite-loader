@@ -1,6 +1,6 @@
 {
   "name": "react-finite-loader",
-  "version": "0.0.101",
+  "version": "0.1.0",
   "description": "React progress loaders for loading a finite resource",
   "keywords": [ "react", "loaders", "finite" ],
   "main": "build/index.js",

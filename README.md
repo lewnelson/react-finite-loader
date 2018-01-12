@@ -69,7 +69,7 @@ export default class ResourceDownloader extends React.Component {
   }
 
   incrementValue () {
-    setTimeout(function () {
+    setTimeout(() => {
       const value = this.state.value + this.getRand(1, 12)
       if (this.state.value >= 100) {
         this.setState({ value: 100 })

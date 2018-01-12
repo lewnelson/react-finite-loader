@@ -20,8 +20,9 @@ export class ReactFiniteLoader extends React.Component {
    * @return {Object} Object with the progress state
    */
   getLoaderProps () {
+    const { value, finish } = this.props
     const progress = this.getProgressPercentage()
-    return { progress }
+    return { progress, value, finish }
   }
 
   /**
