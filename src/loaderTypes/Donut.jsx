@@ -69,7 +69,8 @@ export class Donut extends React.Component {
       left: 0,
       borderWidth: `${thickness / 2}em`,
       borderStyle: 'solid',
-      borderColor: loadedColor
+      borderColor: loadedColor,
+      boxSizing: 'border-box'
     }
   }
 
@@ -148,7 +149,8 @@ export class Donut extends React.Component {
       borderColor: unloadedColor,
       width: '100%',
       height: '100%',
-      position: 'absolute'
+      position: 'absolute',
+      boxSizing: 'border-box'
     }
 
     return (
