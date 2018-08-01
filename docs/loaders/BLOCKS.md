@@ -41,7 +41,7 @@ The `Blocks` component renders a container element with the classes `react-finit
         background-color: transparent;
       }
 
-      .loaded {
+      &.loaded {
         .fill {
           background-color: #4faf1f;
         }

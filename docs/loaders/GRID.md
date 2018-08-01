@@ -43,7 +43,7 @@ The segment wrappers have the class of `segment`. The segment wrappers will also
           background-color: transparent;
         }
 
-        .loaded {
+        &.loaded {
           .fill {
             background-color: #4faf1f;
           }

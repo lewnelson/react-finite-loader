@@ -7,6 +7,7 @@ React finite loader provides a set of loading UI components as well as a set of 
 
 ## Contents
 ----
+1. [Demo](https://lewnelson.com/projects/react-finite-loader)
 1. [Getting Started](#getting-started)
 1. [UI Components](#ui-components)
 1. [API Documentation](#api-documentation)
